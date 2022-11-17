@@ -48,6 +48,9 @@ export default function NotepadContainer() {
         onClick={handleDelete}
       />
       <div className="notes-area-container">
+        <div className="pink-line">
+          <ul className="notes-area"></ul>
+        </div>
         <ul className="notes-area">
           {defaultMessage}
           {lines}
